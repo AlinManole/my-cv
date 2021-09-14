@@ -2,6 +2,22 @@
 
 .navbar {
     background-color: #0475ba;
+    color: white;
+    padding: 20px;
+}
+
+.navbar h2 {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+}
+
+.navbar li {
+    display: inline;
 }
 
 /* Header */
