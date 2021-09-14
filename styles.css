@@ -1,45 +1,128 @@
-/* Navbar */
+/* universal */
 
-.navbar {
-    background-color: #0475ba;
-    color: white;
-    padding: 20px;
-}
+.blue-section {
+    background-color: rgb(4, 117, 186);
+    color: rgb(255, 255, 255)
+  } 
 
-.navbar h2 {
-    font-size: 20px;
-    margin-right: 20px;
-}
+  a {
+    color: rgb(255, 255, 255);
+  }
 
-nav {
+  section {
+    padding: 40px;
+  }
+
+     /* Navbar */
+  nav {
+    height: 70px;
     display: flex;
-    justify-content: left;
+  }
+  
+  nav h2 {
+    margin: 0;
+    padding: 20px 0 20px 15px;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 24px;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 15px;
+  }
+
+  /*header*/
+  
+  header {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;   
+  }
+  
+  .header-containter{
+    display: flex;
+    justify-content:space-around;
 }
 
-.navbar li {
-    display: inline;
-}
+    .text-header {
+        margin: 40px;
+    }
 
-/* Header */
+  .text-header h1 {
+    font-size: 30px;
+    margin: 30px;
+    font-weight: bolder;
+  }
 
-/* presentation */
 
-#presentation {
-    background-color: #0475ba;
-}
+  .text-header h2 {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(4, 117, 186);
+  }
+  
+  header img {
+    width: 150px;
+    box-shadow: 3px 3px 6px rgb(119, 118, 118);
+  }
 
-/* Experciences */
+   /* Presentation */
 
-/* formations */
+  
+  /* experiences prof */
+  
+  #xp ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  #xp li {
+    border-bottom: 10px;
+  }
+  
+  #xp aside {
+    float: right;
+  }
+  
+    /* Formations */
 
-#formations {
-    background-color: #0475ba;
-}
+  #education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #education li {
+    margin-bottom: 10px;
+  }
+  
+  #education aside {
+    float: right;
+  }
+   
+  /* Footer */
 
-/* passions */
-
-/* footer */
-
-footer {
-    background-color: #0475ba;
-}
+  footer {
+    padding: 40px;
+  }
+  
+  footer ul {
+    padding: 0;
+    margin:0;
+    list-style: none;
+  }
+  
+  .links {
+    margin-bottom: 25px;
+    width: 390px;
+    display: inline-block;
+  }
