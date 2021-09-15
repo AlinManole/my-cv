@@ -1,11 +1,23 @@
 /* universal */
 
+@font-face {
+  font-family: Poppins;
+  src: url(fonts/poppins.ttf);
+} 
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(fonts/Poppins-Medium.ttf);
+}
+ body {
+   font-family: Poppins;
+ }
+
+
+
 .blue-section {
     background-color: #0475ba;
     color: rgb(255, 255, 255)
   } 
-
-
 
   a {
     color: rgb(255, 255, 255);
@@ -19,8 +31,8 @@
       font-size: 19px;
       font-weight: bold;
       padding-bottom: 14px;
+      
   }
-
   
 
      /* Navbar */
@@ -108,19 +120,24 @@
     margin: 0;
   }
   
-  #xp li {
-    border-bottom: 10px;
+  .content li , h4 {
+    padding: 10px 0 10px 0;
   }
   
   #xp aside {
     float: right;
   }
+
+  .content h4 {
+    font-weight: bold;
+  }
+
+
   
     /* Formations */
 
   #formations ul {
     list-style: none;
-    padding: 0;
     margin: 0;
   }
   
@@ -132,11 +149,21 @@
     float: right;
   }
 
+  #formations h4 {
+    padding-top: 5px;
+  }
+
   /* Passions */
 
   #passions h3 {
     color :#0475ba;
   }
+
+  #passions p {
+    padding: 5px 0 5px 0;
+  }
+
+
    
   /* Footer */
 
@@ -154,4 +181,8 @@
     margin-bottom: 25px;
     width: 390px;
     display: inline-block;
+  }
+
+  .links i {
+    padding-right: 5px;
   }
