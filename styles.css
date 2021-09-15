@@ -3,17 +3,15 @@
 @font-face {
   font-family: Poppins;
   src: url(fonts/poppins.ttf);
+
 } 
 @font-face {
   font-family: PoppinsMedium;
   src: url(fonts/Poppins-Medium.ttf);
+
 }
 
-@media screen and (max-width: 800px) {
-  nav ul {
-    visibility: hidden;
-  }
-}
+
  body {
    font-family: Poppins;
  }
@@ -34,8 +32,7 @@
   h3 {
       font-size: 19px;
       font-weight: bold;
-      padding-bottom: 14px;
-      
+      padding-bottom: 14px;    
   }
   
 
@@ -55,7 +52,6 @@
     margin: 0;
     padding: 24px;
     list-style: none;
-  
   }
   
   nav li {
@@ -138,7 +134,6 @@
   }
 
 
-  
     /* Formations */
 
   #formations ul {
@@ -168,13 +163,11 @@
     padding: 5px 0 5px 0;
   }
 
-
    
   /* Footer */
 
   footer {
-    padding: 40px;
-    
+    padding: 40px;   
   }
   
   footer ul {
@@ -192,3 +185,16 @@
   .links i {
     padding-right: 5px;
   }
+
+  /* Responsive */
+
+@media screen and (max-width: 800px) {
+  nav ul {
+    visibility: hidden;
+  }
+  .header-containter { 
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
