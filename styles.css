@@ -81,6 +81,7 @@
   
   header img {
     width: 150px;
+    height: 150px;
     box-shadow: 3px 3px 6px rgb(119, 118, 118);
   }
 
