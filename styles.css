@@ -76,7 +76,7 @@
   .text-header h2 {
     font-size: 17px;
     font-weight: bold;
-    color: rgb(4, 117, 186);
+    color: #0475ba;
   }
   
   header img {
@@ -86,9 +86,20 @@
   }
 
    /* Presentation */
+   #profile ul {
+     padding-left: 35px;
+   }
+
+   #profile li {
+     list-style-type: disc;
+   }
 
   
   /* experiences prof */
+
+  #xp h3 {
+    color: #0475ba;
+  }
   
   #xp ul {
     padding: 0;
@@ -106,18 +117,24 @@
   
     /* Formations */
 
-  #education ul {
+  #formations ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  #education li {
+  #formations li {
     margin-bottom: 10px;
   }
   
-  #education aside {
+  #formations aside {
     float: right;
+  }
+
+  /* Passions */
+
+  .passions h3 {
+    color :#0475ba;
   }
    
   /* Footer */
