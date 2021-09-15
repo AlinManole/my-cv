@@ -40,11 +40,13 @@
   nav {
     height: 72px;
     display: flex;
+    align-items: center;
   }
   
   nav h2 {
     margin: 0;
-    padding: 20px 0 20px 15px;
+    padding: 20px 0 20px 20px;
+    font-size: 20px;
   }
   
   nav ul {
@@ -55,7 +57,7 @@
   }
   
   nav li {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   /*header*/
@@ -100,12 +102,18 @@
   }
 
    /* Presentation */
+   #profile h3 {
+     padding-bottom: 20px;
+   }
+
    #profile ul {
      padding-left: 35px;
+
    }
 
    #profile li {
      list-style-type: disc;
+     padding: 5px 0 0 0;
    }
 
   
@@ -121,7 +129,7 @@
     margin: 0;
   }
   
-  .content li , h4 {
+  #xp li , h4 {
     padding: 10px 0 10px 0;
   }
   
@@ -129,7 +137,7 @@
     float: right;
   }
 
-  .content h4 {
+  #xp h4 {
     font-weight: bold;
   }
 
@@ -149,9 +157,15 @@
     float: right;
   }
 
-  #formations h4 {
-    padding-top: 5px;
+  #formations h3 {
+    padding: 10px 0 30px 0
   }
+
+  #formations h4 {
+    margin: -10px 0 -10px 0;
+  }
+
+  
 
   /* Passions */
 
