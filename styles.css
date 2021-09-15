@@ -8,11 +8,15 @@
   font-family: PoppinsMedium;
   src: url(fonts/Poppins-Medium.ttf);
 }
+
+@media screen and (max-width: 800px) {
+  nav ul {
+    visibility: hidden;
+  }
+}
  body {
    font-family: Poppins;
  }
-
-
 
 .blue-section {
     background-color: #0475ba;
@@ -51,6 +55,7 @@
     margin: 0;
     padding: 24px;
     list-style: none;
+  
   }
   
   nav li {
@@ -169,6 +174,7 @@
 
   footer {
     padding: 40px;
+    
   }
   
   footer ul {
