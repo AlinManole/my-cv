@@ -12,109 +12,112 @@
 }
 
 
- body {
+body {
    font-family: Poppins;
- }
+}
 
 .blue-section {
     background-color: #0475ba;
     color: rgb(255, 255, 255)
-  } 
+} 
 
-  a {
-    color: rgb(255, 255, 255);
-  }
-
-  section {
+section {
     padding: 40px;
-  }
+}
 
-  h3 {
+a {
+    color: rgb(255, 255, 255);
+}
+
+  
+
+h3 {
       font-size: 19px;
       font-weight: bold;
       padding-bottom: 14px;    
-  }
+}
   
 
      /* Navbar */
-  nav {
+nav {
     height: 72px;
     display: flex;
     align-items: center;
-  }
+}
   
-  nav h2 {
+nav h2 {
     margin: 0;
     padding: 20px 0 20px 20px;
     font-size: 20px;
-  }
+}
   
-  nav ul {
+nav ul {
     display: flex;
     margin: 0;
     padding: 24px;
     list-style: none;
-  }
+}
   
-  nav li {
+nav li {
     margin-left: 25px;
-  }
+}
 
   /*header*/
   
-  header {
+header {
     text-align: center;
     padding: 40px;
-  }
+}
   
-  .content {
+.content {
     max-width: 800px;
     margin: 0 auto;   
-  }
+}
   
-  .header-containter{
+.header-containter{
     display: flex;
     justify-content:space-around;
 }
 
-    .text-header {
+.text-header {
         margin: 40px;
-    }
+}
 
-  .text-header h1 {
+.text-header h1 {
     font-size: 30px;
     margin: 30px;
     font-weight: bolder;
-  }
+}
 
 
-  .text-header h2 {
+.text-header h2 {
     font-size: 17px;
     font-weight: bold;
     color: #0475ba;
-  }
+}
   
-  header img {
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     box-shadow: 3px 3px 6px rgb(119, 118, 118);
+}
+
+   /* Presentation */  
+
+  #profile h3 {
+     padding-bottom: 20px;
   }
 
-   /* Presentation */
-   #profile h3 {
-     padding-bottom: 20px;
-   }
-
-   #profile ul {
+  #profile ul {
      padding-left: 35px;
 
-   }
+  }
 
-   #profile li {
+  #profile li {
      list-style-type: disc;
      padding: 5px 0 0 0;
-   }
+  }
 
   
   /* experiences prof */
@@ -135,6 +138,7 @@
   
   #xp aside {
     float: right;
+    padding-top: 10px;
   }
 
   #xp h4 {
@@ -155,6 +159,7 @@
   
   #formations aside {
     float: right;
+    padding-top: 10px;
   }
 
   #formations h3 {
