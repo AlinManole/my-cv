@@ -82,7 +82,7 @@ header {
 .text-header h1 {
   font-size: 30px;
   margin: 30px; 
-  font-family: Poppins;
+  font-family: PoppinsMedium;
 }
 
 .text-header h2 {
@@ -197,7 +197,7 @@ footer ul {
 
 /* Responsive */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   nav ul {
     visibility: hidden;
   }
